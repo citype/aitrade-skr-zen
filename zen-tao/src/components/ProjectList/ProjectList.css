@@ -1,0 +1,12 @@
+.pl-card-container {
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 15px;
+    box-shadow: 20px 20px;
+
+
+}
