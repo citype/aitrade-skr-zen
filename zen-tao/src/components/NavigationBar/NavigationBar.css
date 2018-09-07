@@ -1,9 +1,9 @@
 .nb-header-div {
     background:indigo;
-    height: 100px;
+    height: 52px;
     width: 100%;
     top: 0;
-    position: absolute;
+    position: relative;
     overflow: hidden;
 }
 .nb-ul {
