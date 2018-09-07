@@ -18,16 +18,17 @@
 }
 li {
     float: left;
+    color: #666;
+    padding: 0px 8px 0px 8px;
+    font-size: var(--title-font-size);
+    line-height: 50px;
 }
 li a {
     height: 100%;
     display: block;
     color: #666;
     text-align: center;
-    padding: 0px 8px 0px 8px;
     text-decoration: none;
-    font-size: var(--title-font-size);
-    line-height: 50px;
 }
 
 li a:hover:not(.active) {
@@ -40,6 +41,7 @@ li a:active {
 }
 .nb-li-right {
     float: right;
+    
 }
 .active {
     background-color: #4CAF50;

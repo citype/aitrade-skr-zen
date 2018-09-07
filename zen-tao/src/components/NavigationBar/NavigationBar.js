@@ -14,7 +14,7 @@ export default class NavigationBar extends Component {
                     <li><a href="#">Project</a></li>
                     <li><a href = "#">Task</a></li>
                     <li><a href="#">Statistical</a></li>
-                    <li className="nb-li-right"><a href="#">name</a></li>
+                    <li className="nb-li-right">name</li>
                     <li className="nb-li-right"><a href = "#"><img className ="nb-li-headicon" src={ PersonIcon }/></a></li>
                 </ul>
             </div>

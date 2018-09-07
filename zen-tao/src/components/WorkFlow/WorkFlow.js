@@ -24,7 +24,7 @@ class WorkFlowTable extends Component {
               <td>-</td>
               <td>-</td>
             </tr>
-            <tr>
+                <tr className="pl-card-table-detail">
               <td>管理员</td>
               <td>维护公司</td>
               <td>添加用户</td>
@@ -32,7 +32,7 @@ class WorkFlowTable extends Component {
               <td>-</td>
               <td>-</td>
             </tr>
-            <tr>
+                <tr className="pl-card-table-detail">
               <td>管理员</td>
               <td>维护公司</td>
               <td>添加用户</td>
