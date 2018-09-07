@@ -1,0 +1,19 @@
+.nt-container {
+    position: absolute;
+    right: 2%;
+    top: 10%;
+    width: 30%;
+    height: 500px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px gray;
+    background-color: white; 
+    float: left;  
+}
+.nt-title-more {
+    font-size: var(--small-title-font-size);
+    font-family: var(--font-family-monospace);
+    color: var(--sub-title-color);
+    top:5%;
+    right: 5%;
+    position: absolute;
+}

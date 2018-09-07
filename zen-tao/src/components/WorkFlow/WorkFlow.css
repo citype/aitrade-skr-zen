@@ -1,0 +1,12 @@
+.wf-container {
+    position: absolute;
+    top: 400px;
+    left: 2%;
+    width: 63%;
+    width: 63%;
+    height: 300px;
+    bottom: 600px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px gray;
+    background-color: white;
+}   

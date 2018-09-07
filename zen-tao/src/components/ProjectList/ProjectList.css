@@ -1,12 +1,40 @@
 .pl-card-container {
-    position: relative;
-    top: 100px;
-    left: 100px;
-    width: 400px;
-    height: 400px;
-    background-color: aqua;
-    border-radius: 15px;
-    box-shadow: 20px 20px;
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    width: 63%;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 8px 8px 8px gray;
+    background-color: white;
+    float: left;
+}
+.pl-card-title {
+    position: absolute;
+    left:5%;
+    top: 5%;
+    font-size: var(--title-font-size);
+    font-family: var(--font-family-monospace);
+    font-weight: var(--title-font-weight);
+}
+.pl-card-table {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 90%;
+    text-align: left;
+    vertical-align: center;
+}
+.pl-card-table-title {
+    height: 50px;
+    font-size: var(--title-font-size);
+    font-family: var(--font-family-monospace);
+    color: var(--sub-title-color);
+    font-weight: var(--sub-title-font-weight);
+}
 
-
+.pl-card-table-detail {
+    height: 30px;
+    font-size: var(--detail-font-size);
+    font-family: var(--font-family-monospace);
 }
