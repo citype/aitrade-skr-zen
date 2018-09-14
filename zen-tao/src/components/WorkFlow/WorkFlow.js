@@ -54,6 +54,7 @@ export default class WorkFlow extends Component {
             <div className = "wf-container">
                 <p className="pl-card-title">流程图</p>
                 <WorkFlowTable/>
+
             </div>
         );
     }

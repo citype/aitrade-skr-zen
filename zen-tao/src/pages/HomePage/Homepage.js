@@ -3,6 +3,7 @@ import NavigationBar from '../../components/NavigationBar/NavigationBar.js';
 import ProjectList from '../../components/ProjectList/ProjectList.js'
 import NewsTree from '../../components/NewsTree/NewsTree.js'
 import WorkFlow from '../../components/WorkFlow/WorkFlow.js'
+import { Link } from 'react-router-dom'
 
 export default class HomePage extends Component {
     constructor(props) {

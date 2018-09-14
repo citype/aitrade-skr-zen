@@ -1,5 +1,6 @@
 import React,{ Component } from 'react'
 import './NewsTree.css'
+import TimeLine from '../TimeLine/TimeLine.js'
 
 export default class NewsTree extends Component {
     constructor(props) {
@@ -10,9 +11,7 @@ export default class NewsTree extends Component {
             <div className = "nt-container">
                 <p className = "pl-card-title">最新动态</p>
                 <p className = "nt-title-more">MORE</p>
-                <div className = "nt-panel-body">
-                        
-                </div>
+                <TimeLine/>
             </div>
         );
     }
