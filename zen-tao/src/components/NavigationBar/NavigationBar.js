@@ -10,7 +10,7 @@ export default class NavigationBar extends Component {
     render() {
         return <div className="nb-header-div">
             <ul className="nb-ul">
-              <Link to="/home">
+              <Link to="/">
                     <li><a>Home</a></li>
               </Link>
               <li>

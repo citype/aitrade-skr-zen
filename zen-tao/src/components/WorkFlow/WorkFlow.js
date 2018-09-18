@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import './WorkFlow.css'
+import '../../Constants/constants.js'
 
 class WorkFlowTable extends Component {
     constructor(props) {

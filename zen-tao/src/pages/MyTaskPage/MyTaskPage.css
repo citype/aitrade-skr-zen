@@ -8,15 +8,17 @@
     box-shadow: 8px 8px 8px gray;
     background-color: white;
 }
-.mt-table {
-    position: absolute;
-    top: 10%;
+/* .mt-table {
+    position: relative;
     left: 5%;
-    width: 90%;
-    
+    width: 100%;
+    font-size: var(--ide-font-size-small);
+    border-spacing: 0;
+    margin-bottom: 1px; 
+    text-align: center;
 }
 th {
-    height: 50px;
+    height: 30px;
     font-size: var(--title-font-size);
     font-family: var(--font-family-monospace);
     font-weight: var(--title-font-weight);
@@ -31,4 +33,4 @@ table, th, td
   border: 0px solid blue;
   text-align: left;
   vertical-align: center;
-}
+} */

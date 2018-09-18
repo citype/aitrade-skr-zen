@@ -9,7 +9,7 @@ class App extends Component {
     let view
     view = (
       <Switch>
-        <Route exact path='/home' component={ HomePage } />
+        <Route exact path='/' component={ HomePage } />
         <Route exact path='/task' component={ MyTaskPage }/>
       </Switch>
     )
